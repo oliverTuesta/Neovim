@@ -1,4 +1,4 @@
-let mapleader = "," " map leader to Space
+let mapleader = " " " map leader to Space
 
 map <leader>h :noh<CR>
 nmap <C-t> :NERDTreeToggle<CR>

@@ -37,6 +37,18 @@ source ~/.config/nvim/plugins.vim
 source ~/.config/nvim/coc.vim
 source ~/.config/nvim/maps.vim
 
+" default updatetime 4000ms is not good for async update
+set updatetime=100
+set background=dark
 colorscheme catppuccin
+"colorscheme onedark
 
+" lightline color scheme (themes)
+"let g:lightline = {
+      "\ 'colorscheme': 'one',
+      "\ }
+
+let g:lightline = {
+      \ 'colorscheme': 'catppuccin',
+  \ }
 

@@ -3,6 +3,7 @@ call plug#begin('~/.vim/plugged')
 
 "Themes
 Plug 'catppuccin/nvim', {'as': 'catppuccin'} 
+Plug 'joshdick/onedark.vim'
 
 " icons
 Plug 'ryanoasis/vim-devicons'
@@ -42,10 +43,3 @@ Plug 'mhinz/vim-signify'
 Plug 'easymotion/vim-easymotion'
 
 call plug#end()
-
-" configs
-" lightline color scheme (themes)
-let g:lightline = {
-      \ 'colorscheme': 'one',
-      \ }
-
