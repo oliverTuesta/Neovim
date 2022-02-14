@@ -42,4 +42,8 @@ Plug 'mhinz/vim-signify'
 " para usar:    s caracter
 Plug 'easymotion/vim-easymotion'
 
+" Colors for the hexadecimal format
+Plug 'norcalli/nvim-colorizer.lua'
+
 call plug#end()
+

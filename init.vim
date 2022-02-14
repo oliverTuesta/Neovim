@@ -10,6 +10,9 @@ set smartcase
 set tabstop=4             " number of columns occupied by a tab 
 set softtabstop=4          " see multiple spaces as tabstops so <BS> does the right thing
 set expandtab               " converts tabs to white space
+set hidden
+set list
+set listchars=trail:.
 set scrolloff=10
 set shiftwidth=4            " width for autoindents
 set autoindent              " indent a new line the same amount as the line just typed
@@ -36,6 +39,10 @@ filetype plugin on   "allow auto-indenting depending on file type
 source ~/.config/nvim/plugins.vim
 source ~/.config/nvim/coc.vim
 source ~/.config/nvim/maps.vim
+
+" colors for hexadecimal format
+set termguicolors
+lua require'colorizer'.setup()
 
 " default updatetime 4000ms is not good for async update
 set updatetime=100
