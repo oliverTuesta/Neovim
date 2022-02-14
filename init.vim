@@ -27,7 +27,7 @@ filetype plugin on
 set cursorline              " highlight current cursorline
 set ttyfast                 " Speed up scrolling in Vim
 set laststatus=2
-set statusline=
+set noshowmode
 
 filetype on
 filetype indent on
