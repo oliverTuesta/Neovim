@@ -3,8 +3,8 @@ call plug#begin('~/.vim/plugged')
 
 "Themes
 Plug 'catppuccin/nvim', {'as': 'catppuccin'} 
-Plug 'joshdick/onedark.vim'
-
+"Plug 'joshdick/onedark.vim'
+Plug 'rakr/vim-one'
 " icons
 Plug 'ryanoasis/vim-devicons'
 
@@ -44,6 +44,13 @@ Plug 'easymotion/vim-easymotion'
 
 " Colors for the hexadecimal format
 Plug 'norcalli/nvim-colorizer.lua'
+
+" prettier
+" post install (yarn install | npm install) then load plugin only for editing supported files
+"Plug 'prettier/vim-prettier', {
+  "\ 'do': 'yarn install --frozen-lockfile --production',
+  "\ 'for': ['javascript', 'typescript', 'css', 'less', 'scss', 'json', 'graphql', 'markdown', 'vue', 'svelte', 'yaml', 'html'] }
+
 
 call plug#end()
 

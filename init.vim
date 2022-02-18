@@ -48,13 +48,12 @@ lua require'colorizer'.setup()
 set updatetime=100
 set background=dark
 colorscheme catppuccin
-"colorscheme onedark
+"colorscheme tokyonight
 
 " lightline color scheme (themes)
 "let g:lightline = {
       "\ 'colorscheme': 'one',
       "\ }
-
 let g:lightline = {
       \ 'colorscheme': 'catppuccin',
   \ }
