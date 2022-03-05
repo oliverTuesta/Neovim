@@ -7,6 +7,7 @@ set mouse=v                 " middle-click paste with
 set hlsearch                " highlight search 
 set incsearch               " incremental search
 set smartcase
+set backspace=indent,eol,start
 set tabstop=4             " number of columns occupied by a tab 
 set softtabstop=4          " see multiple spaces as tabstops so <BS> does the right thing
 set expandtab               " converts tabs to white space
@@ -58,3 +59,19 @@ let g:lightline = {
       \ 'colorscheme': 'catppuccin',
   \ }
 
+" NERDTree
+let NERDTreeQuitOnOpen=1
+let g:NERDTreeMinimalUI=1
+nmap <F2> :NERDTreeToggle<CR>
+
+ "Tabs
+ let g:airline#extensions#tabline#enabled=1
+ let g:airline#extensions#tabline#fnamemode=':t'
+ nmap <leader>1 :bp<CR>
+ nmap <leader>2 :bn<CR>
+
+" Ultisnips
+let g:UltiSnipsSnippetDirectories=[$HOME.'/.config/nvim/ultisnips']
+let g:UltiSnipsExpandTrigger="<tab>"
+let g:UltiSnipsJumpForwardTrigger="<tab>"
+let g:UltiSnipsJumpBackwardTrigger="<s-tab>"

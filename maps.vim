@@ -8,6 +8,7 @@ map  <C-h> :tabp<CR>
 "map  <C-n> :tabnew<CR>
 map <C-w>  :q<CR>
 map <C-s>  :w<CR>
+      \:source ~/.config/nvim/init.vim<CR>
 
 " easymotion
 map s <Plug>(easymotion-bd-f)
@@ -29,7 +30,7 @@ nnoremap o o<esc>
 nnoremap O O<esc>
 
 " Reload init.vim
-nnoremap <C-s> :source ~/.config/nvim/init.vim<CR>
+"nnoremap <C-s> :source ~/.config/nvim/init.vim<CR>
 " Light theme
 " color scheme
 nnoremap <C-a> :colorscheme one<CR>

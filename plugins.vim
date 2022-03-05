@@ -32,7 +32,7 @@ Plug 'tpope/vim-surround'  " Rodear una palabra con ([{}]): S (ese mayuscula) []
 "Plug 'christoomey/vim-tmux-navigator' 
 
 " autocomplete
-"Plug 'sirver/ultinsnips'
+Plug 'sirver/ultisnips'
 Plug 'neoclide/coc.nvim' , {'branch': 'release'}
 
 "git
@@ -53,4 +53,3 @@ Plug 'norcalli/nvim-colorizer.lua'
 
 
 call plug#end()
-
