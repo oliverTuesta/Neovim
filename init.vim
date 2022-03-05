@@ -40,7 +40,8 @@ filetype plugin on   "allow auto-indenting depending on file type
 source ~/.config/nvim/plugins.vim
 source ~/.config/nvim/coc.vim
 source ~/.config/nvim/maps.vim
-
+" Prettier
+command! -nargs=0 Prettier :call CocAction('runCommand', 'prettier.formatFile')
 " colors for hexadecimal format
 set termguicolors
 lua require'colorizer'.setup()
