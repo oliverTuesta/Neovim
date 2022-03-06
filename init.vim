@@ -73,6 +73,6 @@ nmap <F2> :NERDTreeToggle<CR>
 
 " Ultisnips
 let g:UltiSnipsSnippetDirectories=[$HOME.'/.config/nvim/ultisnips']
-let g:UltiSnipsExpandTrigger="<tab>"
-let g:UltiSnipsJumpForwardTrigger="<tab>"
-let g:UltiSnipsJumpBackwardTrigger="<s-tab>"
+let g:UltiSnipsExpandTrigger="<c-b>"
+let g:UltiSnipsJumpForwardTrigger="<c-b>"
+let g:UltiSnipsJumpBackwardTrigger="<c-z>"
