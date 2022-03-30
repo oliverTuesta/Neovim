@@ -3,6 +3,7 @@ call plug#begin('~/.vim/plugged')
 
 "Themes
 Plug 'catppuccin/nvim', {'as': 'catppuccin'} 
+Plug 'morhetz/gruvbox'
 "Plug 'joshdick/onedark.vim'
 Plug 'rakr/vim-one'
 " icons
@@ -33,6 +34,8 @@ Plug 'tpope/vim-surround'  " Rodear una palabra con ([{}]): S (ese mayuscula) []
 
 " autocomplete
 Plug 'sirver/ultisnips'
+" Snippets are separated from the engine. Add this if you want them:
+Plug 'honza/vim-snippets'
 Plug 'neoclide/coc.nvim' , {'branch': 'release'}
 
 "git

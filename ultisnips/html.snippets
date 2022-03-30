@@ -1,7 +1,8 @@
-snippet HTML:5 
+snippet html:5 
 <!DOCTYPE html>
 <html>
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" type="text/css" href="style.css">
     <title>${1:Title}</title>
 </head>
@@ -11,4 +12,19 @@ ${2}
 </body>
 
 </html>
+endsnippet
+
+snippet lorem
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
+vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
+no sea takimata sanctus est Lorem ipsum dolor sit amet.
+endsnippet
+
+snippet script
+<script src="${1:app.js}"></script>
+endsnippet
+
+snippet option
+<option value="$1">${2:$1}</option>
 endsnippet

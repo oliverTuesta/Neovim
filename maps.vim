@@ -8,7 +8,8 @@ map  <C-h> :tabp<CR>
 "map  <C-n> :tabnew<CR>
 map <C-w>  :q<CR>
 map <C-s>  :w<CR>
-      \:source ~/.config/nvim/init.vim<CR>
+map <C-a>  :colorscheme catppuccin<CR>
+      \:set background=dark<CR>
 
 " easymotion
 map s <Plug>(easymotion-bd-f)
@@ -33,5 +34,5 @@ nnoremap O O<esc>
 "nnoremap <C-s> :source ~/.config/nvim/init.vim<CR>
 " Light theme
 " color scheme
-nnoremap <C-a> :colorscheme one<CR>
-                        \:set background=light<CR>
+"nnoremap <C-l> :colorscheme one<CR>
+                        "\:set background=light<CR>

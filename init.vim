@@ -13,9 +13,9 @@ set softtabstop=4          " see multiple spaces as tabstops so <BS> does the ri
 set expandtab               " converts tabs to white space
 set hidden
 set list
-set listchars=trail:.
 set scrolloff=10
 set shiftwidth=4            " width for autoindents
+set listchars=trail:.
 set autoindent              " indent a new line the same amount as the line just typed
 set history=1000
 set wildmenu
@@ -49,7 +49,7 @@ lua require'colorizer'.setup()
 " default updatetime 4000ms is not good for async update
 set updatetime=100
 set background=dark
-colorscheme catppuccin
+colorscheme gruvbox 
 "colorscheme tokyonight
 
 " lightline color scheme (themes)
@@ -57,7 +57,7 @@ colorscheme catppuccin
       "\ 'colorscheme': 'one',
       "\ }
 let g:lightline = {
-      \ 'colorscheme': 'catppuccin',
+      \ 'colorscheme': 'gruvbox',
   \ }
 
 " NERDTree
