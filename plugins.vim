@@ -1,5 +1,6 @@
 call plug#begin('~/.vim/plugged')
 "Plugin Section
+"
 
 "Themes
 Plug 'catppuccin/nvim', {'as': 'catppuccin'} 
@@ -48,11 +49,17 @@ Plug 'easymotion/vim-easymotion'
 " Colors for the hexadecimal format
 Plug 'norcalli/nvim-colorizer.lua'
 
+" Auto rename tag
+Plug 'andrewradev/tagalong.vim'
+
 " prettier
 " post install (yarn install | npm install) then load plugin only for editing supported files
 "Plug 'prettier/vim-prettier', {
   "\ 'do': 'yarn install --frozen-lockfile --production',
   "\ 'for': ['javascript', 'typescript', 'css', 'less', 'scss', 'json', 'graphql', 'markdown', 'vue', 'svelte', 'yaml', 'html'] }
+
+Plug 'junegunn/fzf.vim'
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 
 
 call plug#end()
