@@ -1,13 +1,51 @@
-snippet c++
-#include <bits/stdc++>
-using namespace std;
+snippet cpp
+#include <bits/stdc++.h>
 
-int main(int argc, char *argv[]) {
+#define ll long long
+#define ld long double
+
+int main() {
 	$1
 	return 0;
 }
 endsnippet
 
-snippet cout
-cout << $1 << '\n';
+snippet c++
+#include <iostream>
+
+using namespace std;
+
+int main() {
+	$1
+	return 0;
+}
 endsnippet
+
+
+
+#snippet cout
+#cout << $1 << '\n';
+#endsnippet
+
+snippet class
+class ${1:CName}{
+  private:
+		$2
+  public:
+		$1() {$3}
+    ~$1() {$4}
+
+		$5
+};
+endsnippet
+
+snippet linked
+struct ${1:ListNode}{
+  int ${2:val};
+  $1 *${3:next};
+  $1(): $2(0), $3(nullptr) {}
+  $1(int x) : $2(x), $3(nullptr) {}
+  $1(int x, $1 *$3) : $2(x), $3($3) {}
+};
+endsnippet
+
