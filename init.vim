@@ -81,3 +81,6 @@ let g:UltiSnipsSnippetDirectories=[$HOME.'/.config/nvim/ultisnips']
 let g:UltiSnipsExpandTrigger="<c-b>"
 let g:UltiSnipsJumpForwardTrigger="<c-b>"
 let g:UltiSnipsJumpBackwardTrigger="<c-z>"
+
+" html skel
+autocmd BufNewFile *.html 0r ~/.config/nvim/skels/html.skel
