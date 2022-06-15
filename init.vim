@@ -16,7 +16,8 @@ set list
 set scrolloff=10
 set shiftwidth=4            " width for autoindents
 set listchars=trail:.
-set listchars=tab:▸\ ,eol:¬
+"set listchars=tab:▸\ ,eol:¬
+set listchars=tab:▸\
 set autoindent              " indent a new line the same amount as the line just typed
 set history=1000
 set wildmenu
@@ -51,7 +52,8 @@ lua require'colorizer'.setup()
 " default updatetime 4000ms is not good for async update
 set updatetime=100
 set background=dark
-colorscheme gruvbox 
+colorscheme catppuccin
+"ruvbox 
 "colorscheme tokyonight
 
 " lightline color scheme (themes)
@@ -59,7 +61,7 @@ colorscheme gruvbox
       "\ 'colorscheme': 'one',
       "\ }
 let g:lightline = {
-      \ 'colorscheme': 'gruvbox',
+      \ 'colorscheme': 'catppuccin',
   \ }
 
 " NERDTree

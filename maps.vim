@@ -22,10 +22,11 @@ nnoremap <C-j> 10<C-e>
 "map the escape key
 inoremap jj <esc>
 
+"nnoremap ff :%!astyle --mode=c --style=google<CR>
  "nerdcomment
 nnoremap <silent> <leader>c} V}:call NERDComment('x', 'toggle')<CR>
 
-nnoremap <leader>f :call CocAction('format')<CR>
+"nnoremap <leader>f :call CocAction('format')<CR>
 " Pressing the letter o will open a new line below the current one.
 " Exit insert mode after creating a new line above or below the current line.
 nnoremap o o<esc>
