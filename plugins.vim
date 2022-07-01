@@ -49,6 +49,12 @@ Plug 'easymotion/vim-easymotion'
 " Colors for the hexadecimal format
 Plug 'norcalli/nvim-colorizer.lua'
 
+" Colors in paratheses
+Plug 'junegunn/rainbow_parentheses.vim'
+let g:rainbow#max_level = 16
+let g:rainbow#pairs = [['(', ')'], ['[', ']'], ['{', '}']]
+autocmd FileType * RainbowParentheses
+
 " Auto rename tag
 Plug 'andrewradev/tagalong.vim'
 
@@ -60,6 +66,10 @@ Plug 'andrewradev/tagalong.vim'
 
 Plug 'junegunn/fzf.vim'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+
+" Github copilot
+Plug 'github/copilot.vim'
+
 
 
 call plug#end()

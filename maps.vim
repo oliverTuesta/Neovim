@@ -23,6 +23,8 @@ nnoremap <C-j> 10<C-e>
 inoremap jj <esc>
 
 "nnoremap ff :%!astyle --mode=c --style=google<CR>
+nnoremap ff :%!astyle --mode=c --style=ansi<CR>
+
  "nerdcomment
 nnoremap <silent> <leader>c} V}:call NERDComment('x', 'toggle')<CR>
 

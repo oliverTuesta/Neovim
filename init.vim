@@ -47,7 +47,8 @@ source ~/.config/nvim/fzf.vim
 command! -nargs=0 Prettier :call CocAction('runCommand', 'prettier.formatFile')
 " colors for hexadecimal format
 set termguicolors
-lua require'colorizer'.setup()
+"lua require'colorizer'.setup()
+lua require'plug-colorizer'
 
 " default updatetime 4000ms is not good for async update
 set updatetime=100
