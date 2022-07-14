@@ -50,13 +50,13 @@ Plug 'easymotion/vim-easymotion'
 Plug 'norcalli/nvim-colorizer.lua'
 
 " Colors in paratheses
-Plug 'junegunn/rainbow_parentheses.vim'
-let g:rainbow#max_level = 16
-let g:rainbow#pairs = [['(', ')'], ['[', ']'], ['{', '}']]
-augroup rainbow_lisp
-  autocmd!
-  autocmd FileType javascript,lisp,clojure,scheme RainbowParentheses
-augroup END
+"Plug 'junegunn/rainbow_parentheses.vim'
+"let g:rainbow#max_level = 16
+"let g:rainbow#pairs = [['(', ')'], ['[', ']'], ['{', '}']]
+"augroup rainbow_lisp
+  "autocmd!
+  "autocmd FileType javascript,lisp,clojure,scheme RainbowParentheses
+"augroup END
 
 " Auto rename tag
 Plug 'andrewradev/tagalong.vim'
