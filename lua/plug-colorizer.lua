@@ -1,5 +1,5 @@
 require'colorizer'.setup(
-  {'css', 'scss', 'less', 'javascript';},
+  {'css', 'scss', 'less', 'javascript', 'sh';},
   {
     RGB      = true;         -- #RGB hex codes
 	  RRGGBB   = true;         -- #RRGGBB hex codes

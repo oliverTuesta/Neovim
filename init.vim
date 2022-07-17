@@ -43,6 +43,7 @@ source ~/.config/nvim/plugins.vim
 source ~/.config/nvim/coc.vim
 source ~/.config/nvim/maps.vim
 source ~/.config/nvim/fzf.vim
+source ~/.config/nvim/emmet.vim
 " Prettier
 command! -nargs=0 Prettier :call CocAction('runCommand', 'prettier.formatFile')
 " colors for hexadecimal format

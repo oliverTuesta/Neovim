@@ -73,6 +73,8 @@ Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 " Github copilot
 Plug 'github/copilot.vim'
 
-
+" Write faster html code
+" add this line to your .vimrc file
+Plug 'mattn/emmet-vim'
 
 call plug#end()
