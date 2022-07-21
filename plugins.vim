@@ -7,13 +7,15 @@ Plug 'catppuccin/nvim', {'as': 'catppuccin'}
 Plug 'morhetz/gruvbox'
 Plug 'joshdick/onedark.vim'
 Plug 'rakr/vim-one'
+
 " icons
 Plug 'ryanoasis/vim-devicons'
 
 "Tab
 Plug 'scrooloose/nerdtree'
+
 " This is for indent lines xd
-Plug 'yggdroot/indentline'
+"Plug 'yggdroot/indentline'
 
 " comentarios
 " para usar: <leader> c <space>

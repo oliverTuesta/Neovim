@@ -40,3 +40,13 @@ nnoremap O O<esc>
 " color scheme
 "nnoremap <C-l> :colorscheme one<CR>
                         "\:set background=light<CR>
+                        
+                       
+" Terminal
+tnoremap jj <C-\><C-n>
+
+" Resieze windwos more quickly
+nnoremap <C-w>> :vertical resize +10<CR>
+nnoremap <C-w>< :vertical resize -10<CR>
+nnoremap <C-w>+ :resize +5<CR>
+nnoremap <C-w>- :resize -5<CR>
