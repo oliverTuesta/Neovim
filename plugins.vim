@@ -15,7 +15,7 @@ Plug 'ryanoasis/vim-devicons'
 Plug 'scrooloose/nerdtree'
 
 " This is for indent lines xd
-"Plug 'yggdroot/indentline'
+Plug 'yggdroot/indentline'
 
 " comentarios
 " para usar: <leader> c <space>
