@@ -89,4 +89,4 @@ autocmd BufNewFile *.html 0r ~/.config/nvim/skels/html.skel
 
 " folding text in vim
 autocmd BufWinLeave *.* mkview
-autocmd BufWinEnter *.* silent loadview
+autocmd BufWinEnter *.* silent! loadview
