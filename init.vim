@@ -86,3 +86,7 @@ let g:UltiSnipsJumpBackwardTrigger="<c-z>"
 
 " html skel
 autocmd BufNewFile *.html 0r ~/.config/nvim/skels/html.skel
+
+" folding text in vim
+autocmd BufWinLeave *.* mkview
+autocmd BufWinEnter *.* silent loadview
