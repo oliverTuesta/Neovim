@@ -37,9 +37,9 @@ nnoremap O O<esc>
 " Reload init.vim
 "nnoremap <C-s> :source ~/.config/nvim/init.vim<CR>
 " Light theme
-" color scheme
-"nnoremap <C-l> :colorscheme one<CR>
-                        "\:set background=light<CR>
+" color scheme " latte, frappe, macchiato, mocha
+nnoremap <C-l> :colorscheme one<CR>
+                        \:set background=light<CR>
                         
                        
 " Terminal
