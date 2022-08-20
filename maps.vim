@@ -9,7 +9,7 @@ map  <C-h> :tabp<CR>
 "map  <C-n> :tabnew<CR>
 "map <C-w>  :q<CR>
 map <C-s>  :w<CR>
-map <C-a>  :colorscheme catppuccin<CR>
+map <leader>a  :colorscheme catppuccin<CR>
       \:set background=dark<CR>
 
 " easymotion
@@ -38,7 +38,7 @@ nnoremap O O<esc>
 "nnoremap <C-s> :source ~/.config/nvim/init.vim<CR>
 " Light theme
 " color scheme " latte, frappe, macchiato, mocha
-nnoremap <C-l> :colorscheme one<CR>
+nnoremap <leader>l :colorscheme one<CR>
                         \:set background=light<CR>
                         
                        
