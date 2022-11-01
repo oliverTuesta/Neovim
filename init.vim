@@ -56,14 +56,16 @@ set updatetime=100
 set background=dark
 
 " *******Color scheme**********
-"colorscheme vim-one
-"ruvbox 
-"colorscheme tokyonight
-let g:catppuccin_flavour = "mocha" " latte, frappe, macchiato, mocha
+call plug#begin()
+Plug 'catppuccin/nvim', { 'as': 'catppuccin' }
+call plug#end()
+
 lua << EOF
-require("catppuccin").setup()
+require("catppuccin").setup {
+    flavour = "macchiato" -- mocha, macchiato, frappe, latte
+}
 EOF
-colorscheme catppuccin
+colorscheme catppuccin-mocha
 " *****************************
 
 " lightline color scheme (themes)

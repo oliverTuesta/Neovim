@@ -5,8 +5,8 @@ call plug#begin('~/.vim/plugged')
 "Themes
 Plug 'catppuccin/nvim', {'as': 'catppuccin'} 
 Plug 'morhetz/gruvbox'
-Plug 'joshdick/onedark.vim'
 Plug 'rakr/vim-one'
+Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
 
 " icons
 Plug 'ryanoasis/vim-devicons'
