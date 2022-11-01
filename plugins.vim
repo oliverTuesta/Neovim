@@ -12,10 +12,11 @@ Plug 'rakr/vim-one'
 Plug 'ryanoasis/vim-devicons'
 
 "Tab
-Plug 'scrooloose/nerdtree'
+Plug 'preservim/nerdtree'
 
 " This is for indent lines xd
-Plug 'yggdroot/indentline'
+" Bugs 
+"Plug 'yggdroot/indentline'
 
 " comentarios
 " para usar: <leader> c <space>
@@ -23,6 +24,7 @@ Plug 'preservim/nerdcommenter'
 
 "resaltado de sintaxis para lenguajes de progra
 Plug 'sheerun/vim-polyglot'
+let g:polyglot_disabled = ['autoindent']
 
 "Status bar
 Plug 'maximbaz/lightline-ale'

@@ -59,7 +59,7 @@ set background=dark
 "colorscheme vim-one
 "ruvbox 
 "colorscheme tokyonight
-let g:catppuccin_flavour = "macchiato" " latte, frappe, macchiato, mocha
+let g:catppuccin_flavour = "mocha" " latte, frappe, macchiato, mocha
 lua << EOF
 require("catppuccin").setup()
 EOF
