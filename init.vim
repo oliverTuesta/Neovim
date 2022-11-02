@@ -56,10 +56,6 @@ set updatetime=100
 set background=dark
 
 " *******Color scheme**********
-call plug#begin()
-Plug 'catppuccin/nvim', { 'as': 'catppuccin' }
-call plug#end()
-
 lua << EOF
 require("catppuccin").setup {
     flavour = "macchiato" -- mocha, macchiato, frappe, latte
