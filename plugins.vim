@@ -42,6 +42,7 @@ Plug 'sirver/ultisnips'
 " Snippets are separated from the engine. Add this if you want them:
 Plug 'honza/vim-snippets'
 Plug 'neoclide/coc.nvim' , {'branch': 'release'}
+Plug 'mlaursen/vim-react-snippets'
 
 "git
 Plug 'mhinz/vim-signify'
