@@ -38,11 +38,13 @@ Plug 'tpope/vim-surround'  " Rodear una palabra con ([{}]): S (ese mayuscula) []
 "Plug 'christoomey/vim-tmux-navigator' 
 
 " autocomplete
-Plug 'sirver/ultisnips'
+Plug 'SirVer/ultisnips'
 " Snippets are separated from the engine. Add this if you want them:
 Plug 'honza/vim-snippets'
+"Plug 'mlaursen/vim-react-snippets'
+
+
 Plug 'neoclide/coc.nvim' , {'branch': 'release'}
-Plug 'mlaursen/vim-react-snippets'
 
 "git
 Plug 'mhinz/vim-signify'

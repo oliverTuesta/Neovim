@@ -51,6 +51,7 @@ set termguicolors
 "lua require'colorizer'.setup()
 lua require'plug-colorizer'
 
+
 " default updatetime 4000ms is not good for async update
 set updatetime=100
 set background=dark
