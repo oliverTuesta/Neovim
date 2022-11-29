@@ -20,7 +20,7 @@ nnoremap <C-j> 10<C-e>
 
 
 "map the escape key
-inoremap jj <esc>
+inoremap jk <esc>
 
 nnoremap ff :%!astyle --mode=c --style=google<CR>
 "nnoremap ff :%!astyle --mode=c --style=ansi<CR>
@@ -43,7 +43,7 @@ nnoremap <leader>l :colorscheme one<CR>
                         
                        
 " Terminal
-tnoremap jj <C-\><C-n>
+tnoremap jk <C-\><C-n>
 
 " Resieze windwos more quickly
 nnoremap <C-w>> :vertical resize +10<CR>
