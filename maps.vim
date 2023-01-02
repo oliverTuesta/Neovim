@@ -9,7 +9,7 @@ map  <C-h> :tabp<CR>
 "map  <C-n> :tabnew<CR>
 "map <C-w>  :q<CR>
 map <C-s>  :w<CR>
-map <leader>a  :colorscheme catppuccin<CR>
+map <leader>d  :colorscheme catppuccin<CR>
       \:set background=dark<CR>
 
 " easymotion

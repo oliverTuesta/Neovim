@@ -62,16 +62,12 @@ set background=dark
 " *******Color scheme**********
 lua << EOF
 require("catppuccin").setup {
-    flavour = "macchiato" -- mocha, macchiato, frappe, latte
+    flavour = "frappe" -- mocha, macchiato, frappe, latte
 }
 EOF
-colorscheme catppuccin-mocha
-" *****************************
 
-" lightline color scheme (themes)
-"let g:lightline = {
-      "\ 'colorscheme': 'one',
-      "\ }
+colorscheme catppuccin
+
 let g:lightline = {
       \ 'colorscheme': 'catppuccin',
   \ }
