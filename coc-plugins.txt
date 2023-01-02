@@ -1,0 +1,4 @@
+:CocInstall @yaegassy/coc-tailwindcss3
+:CocInstall coc-pyright
+:CocInstall coc-tsserver # javascript and typescript
+:CocInstall coc-clangd # c++, c
