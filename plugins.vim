@@ -84,4 +84,6 @@ Plug 'github/copilot.vim'
 " add this line to your .vimrc file
 Plug 'mattn/emmet-vim'
 
+Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
+
 call plug#end()
