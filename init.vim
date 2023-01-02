@@ -72,23 +72,11 @@ let g:lightline = {
       \ 'colorscheme': 'catppuccin',
   \ }
 
-" NERDTree
-let NERDTreeQuitOnOpen=1
-let g:NERDTreeMinimalUI=1
-let g:NERDTreeWinPos = "right"
-nmap <F2> :NERDTreeToggle<CR>
-
  "Tabs
  let g:airline#extensions#tabline#enabled=1
  let g:airline#extensions#tabline#fnamemode=':t'
  nmap <leader>1 :bp<CR>
  nmap <leader>2 :bn<CR>
-
-" Ultisnips
-let g:UltiSnipsSnippetDirectories=[$HOME.'/.config/nvim/ultisnips']
-let g:UltiSnipsExpandTrigger="<c-b>"
-let g:UltiSnipsJumpForwardTrigger="<c-b>"
-let g:UltiSnipsJumpBackwardTrigger="<c-z>"
 
 " html skel
 autocmd BufNewFile *.html 0r ~/.config/nvim/skels/html.skel
@@ -100,4 +88,3 @@ set foldmethod=manual
 " auto save/open foldings
 autocmd BufWinLeave *.* mkview
 autocmd BufWinEnter *.* silent! loadview
-
