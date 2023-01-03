@@ -62,7 +62,7 @@ set background=dark
 " *******Color scheme**********
 lua << EOF
 require("catppuccin").setup {
-    flavour = "frappe" -- mocha, macchiato, frappe, latte
+    flavour = "macchiato" -- mocha, macchiato, frappe, latte
 }
 EOF
 
