@@ -50,3 +50,10 @@ nnoremap <C-w>> :vertical resize +10<CR>
 nnoremap <C-w>< :vertical resize -10<CR>
 nnoremap <C-w>+ :resize +5<CR>
 nnoremap <C-w>- :resize -5<CR>
+
+" move highlight code 
+vnoremap <C-j> :m '>+1<CR>gv=gv
+vnoremap <C-k> :m '<-2<CR>gv=gv
+
+" rename a word 
+nnoremap <leader>r :%s/<C-r><C-w>/<C-r><C-w>/gc<Left><Left><Left>
