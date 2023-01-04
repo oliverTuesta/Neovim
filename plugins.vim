@@ -10,7 +10,6 @@ Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
 
 " icons
 Plug 'ryanoasis/vim-devicons'
-
 "Tab
 Plug 'preservim/nerdtree'
 
@@ -22,9 +21,11 @@ Plug 'preservim/nerdtree'
 " para usar: <leader> c <space>
 Plug 'preservim/nerdcommenter'
 
+
+""""""""""dont recognize html files************
 "resaltado de sintaxis para lenguajes de progra
-Plug 'sheerun/vim-polyglot'
-let g:polyglot_disabled = ['autoindent']
+"Plug 'sheerun/vim-polyglot'
+"let g:polyglot_disabled = ['autoindent']
 
 "Status bar
 Plug 'maximbaz/lightline-ale'

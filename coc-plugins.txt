@@ -1,6 +1,8 @@
 # Copilit
 # Install nvm and then node 16.15.0
-:CocInstall @yaegassy/coc-tailwindcss3
-:CocInstall coc-pyright
-:CocInstall coc-tsserver # javascript and typescript
-:CocInstall coc-clangd # c++, c
+# Install with CocInstall:
+ @yaegassy/coc-tailwindcss3
+ coc-pyright
+ coc-tsserver # javascript and typescript
+ coc-clangd # c++, c
+ coc-prettier

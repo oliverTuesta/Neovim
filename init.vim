@@ -35,6 +35,8 @@ set ttyfast                 " Speed up scrolling in Vim
 set laststatus=2
 set noshowmode
 
+au FileType python setlocal omnifunc=python#complete
+
 filetype on
 filetype indent on
 filetype plugin on   "allow auto-indenting depending on file type
