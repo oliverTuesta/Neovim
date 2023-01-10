@@ -57,3 +57,6 @@ vnoremap <C-k> :m '<-2<CR>gv=gv
 
 " rename a word 
 nnoremap <leader>r :%s/<C-r><C-w>/<C-r><C-w>/gc<Left><Left><Left>
+
+" Markdown preview 
+nmap <C-p> <Plug>MarkdownPreviewToggle

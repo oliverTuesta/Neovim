@@ -47,6 +47,9 @@ source ~/.config/nvim/maps.vim
 for f in split(glob('~/.config/nvim/after/*.vim'), '\n')
     exe 'source' f
 endfor
+for f in split(glob('~/.config/nvim/files/*.vim'), '\n')
+    exe 'source' f
+endfor
 
 
 " Prettier
