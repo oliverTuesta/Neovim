@@ -60,3 +60,6 @@ nnoremap <leader>r :%s/<C-r><C-w>/<C-r><C-w>/gc<Left><Left><Left>
 
 " Markdown preview 
 nmap <C-p> <Plug>MarkdownPreviewToggle
+
+" Cellular automaton plugin <leader>fml
+nnoremap <leader>mr :CellularAutomaton make_it_rain<CR>
