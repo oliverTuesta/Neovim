@@ -1,10 +1,6 @@
 let mapleader = " " " map leader to Space
 
 map <leader>h :noh<CR>
-nmap <C-t> :NERDTreeToggle<CR>
-
-map  <C-l> :tabn<CR>
-map  <C-h> :tabp<CR>
 
 "map  <C-n> :tabnew<CR>
 "map <C-w>  :q<CR>
