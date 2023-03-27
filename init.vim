@@ -36,6 +36,7 @@ set laststatus=2
 set noshowmode
 
 au FileType python setlocal omnifunc=python#complete
+let g:python3_host_prog = '/usr/bin/python3'
 
 filetype on
 filetype indent on
