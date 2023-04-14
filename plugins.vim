@@ -96,4 +96,7 @@ Plug 'eandrju/cellular-automaton.nvim'
 " tmux
 Plug 'christoomey/vim-tmux-navigator'
 
+" for prettier
+Plug 'sbdchd/neoformat'
+
 call plug#end()
