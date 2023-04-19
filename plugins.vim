@@ -99,4 +99,7 @@ Plug 'christoomey/vim-tmux-navigator'
 " for prettier
 Plug 'sbdchd/neoformat'
 
+" Angular
+Plug 'iamcco/coc-angular'
+
 call plug#end()
