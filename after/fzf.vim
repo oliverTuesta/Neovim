@@ -6,7 +6,7 @@ let g:ackprg = 'ag --nogroup --nocolor --column'
 set grepprg=rg\ --vimgrep\ --smart-case\ --follow
 
 " Set the default FZF command to ignore node_modules directory
-let $FZF_DEFAULT_COMMAND = 'rg --files --hidden --follow --glob "!.git" --glob "!node_modules/**/*"'
+let $FZF_DEFAULT_COMMAND = 'rg --files --hidden --follow --glob "!.git" --glob "!node_modules/**/*" --glob "!**/.yarn/**/*"'
 
 nnoremap <silent> <C-f> :Files<CR>
 nnoremap <silent> <Leader>f :Rg<CR>
