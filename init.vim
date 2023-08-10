@@ -65,17 +65,10 @@ lua require'plug-colorizer'
 set updatetime=100
 set background=dark
 
-" *******Color scheme**********
-lua << EOF
-require("catppuccin").setup {
-    flavour = "macchiato" -- mocha, macchiato, frappe, latte
-}
-EOF
-
-colorscheme catppuccin
+colorscheme gruvbox
 
 let g:lightline = {
-      \ 'colorscheme': 'catppuccin',
+            \ 'colorscheme': 'gruvbox',
   \ }
 
  "Tabs

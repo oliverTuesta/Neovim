@@ -91,7 +91,7 @@ Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install' }
 
 " 'eandrju/cellular-automaton.nvim' 
-Plug 'eandrju/cellular-automaton.nvim'
+"Plug 'eandrju/cellular-automaton.nvim'
 
 " tmux
 Plug 'christoomey/vim-tmux-navigator'
