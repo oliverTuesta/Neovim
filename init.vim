@@ -87,3 +87,6 @@ set foldmethod=manual
 " auto save/open foldings
 autocmd BufWinLeave *.* mkview
 autocmd BufWinEnter *.* silent! loadview
+
+" Set copilot as disabled by default
+let g:copilot_enabled = 0
