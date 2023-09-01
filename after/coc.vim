@@ -150,6 +150,5 @@ nnoremap <silent><nowait> <space>p  :<C-u>CocListResume<CR>
 " Configure coc.nvim
 let g:coc_global_extensions = [
       \ 'coc-tsserver',
-      \ 'coc-angular'
       \ ]
 

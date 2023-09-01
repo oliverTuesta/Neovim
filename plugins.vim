@@ -35,9 +35,6 @@ Plug 'itchyny/lightline.vim'
 Plug 'jiangmiao/auto-pairs'
 Plug 'tpope/vim-surround'  " Rodear una palabra con ([{}]): S (ese mayuscula) [] (caracter que va a rodear)
 
-" Tmux
-"Plug 'christoomey/vim-tmux-navigator' 
-
 " autocomplete
 Plug 'SirVer/ultisnips'
 " Snippets are separated from the engine. Add this if you want them:
@@ -98,8 +95,5 @@ Plug 'christoomey/vim-tmux-navigator'
 
 " for prettier
 Plug 'sbdchd/neoformat'
-
-" Angular
-Plug 'iamcco/coc-angular'
 
 call plug#end()
