@@ -12,5 +12,6 @@
         "typescriptreact"
     ],
     "sql.database": "msql",
-    "clangd.path": "/usr/bin/clangd"
+    "clangd.path": "/usr/bin/clangd",
+    "inlayHint.enable": false
 }
