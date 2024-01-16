@@ -85,7 +85,7 @@ Plug 'mattn/emmet-vim'
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 
 " Markdown preview
-Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install' }
+Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && npx --yes yarn install' }
 
 " 'eandrju/cellular-automaton.nvim' 
 "Plug 'eandrju/cellular-automaton.nvim'
