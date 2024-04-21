@@ -88,12 +88,15 @@ Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && npx --yes yarn install' }
 
 " 'eandrju/cellular-automaton.nvim' 
-"Plug 'eandrju/cellular-automaton.nvim'
+Plug 'eandrju/cellular-automaton.nvim'
 
 " tmux
 Plug 'christoomey/vim-tmux-navigator'
 
 " for prettier
 Plug 'sbdchd/neoformat'
+
+" Astro
+Plug 'wuelnerdotexe/vim-astro'
 
 call plug#end()

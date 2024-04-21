@@ -9,7 +9,8 @@
         "scss",
         "javascriptreact",
         "typescript",
-        "typescriptreact"
+        "typescriptreact",
+        "astro"
     ],
     "sql.database": "msql",
     "clangd.path": "/usr/bin/clangd",
